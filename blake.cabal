@@ -2,7 +2,7 @@ name:                blake
 version:             0.0.0.0
 category:            Cryptography
 license:             MIT
-synopsis:            BLAKE{256,512} cryptographic hashes
+synopsis:            BLAKE-256/BLAKE-512 cryptographic hashes
 homepage:            http://thoughtpolice.github.com/hs-blake
 bug-reports:         http://github.com/thoughtpolice/hs-blake/issues
 license-file:        LICENSE.txt
@@ -62,7 +62,7 @@ library
   default-language:   Haskell98
   hs-source-dirs:     src
   c-sources:          src/cbits/blake512.c src/cbits/blake256.c
-  include-dirs:       src/cbits src/cbits/include
+  include-dirs:       src/cbits/include
 
 -------------------------------------------------------------------------------
 -- Build pt 2: Tests
