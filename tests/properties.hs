@@ -21,7 +21,7 @@ instance Arbitrary ByteString where
   arbitrary = S.pack `liftM` arbitrary
 
 --------------------------------------------------------------------------------
--- Signatures
+-- Tests
 
 pure256 :: ByteString -> Bool
 pure256 xs = blake256 xs == blake256 xs
