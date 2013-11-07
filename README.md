@@ -4,7 +4,7 @@
 [![MIT](http://b.repl.ca/v1/license-MIT-blue.png)](http://en.wikipedia.org/wiki/MIT_License)
 [![Haskell](http://b.repl.ca/v1/language-haskell-lightgrey.png)](http://www.haskell.org)
 
-This package implements minimal bindings to the [blake][] hash
+This package implements minimal bindings to the [BLAKE][] hash
 function, which was an SHA-3 finalist. BLAKE is small, simple to
 implement and built on analyzed components. It should be relatively
 easy to both depend on, or include outright in your executable/package
